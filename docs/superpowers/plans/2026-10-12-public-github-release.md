@@ -30,7 +30,7 @@
 - Modify: `README.md`
 
 - [ ] Add ignore rules for `work/`, `outputs/`, browser data, checkpoints, BibTeX/TSV results, caches, virtual environments, build output, and editable-install metadata.
-- [ ] Add the MIT License with copyright `2026 Shangquan Sun`.
+- [ ] Add the MIT License with copyright `2026 sunsean21`.
 - [ ] Replace machine-specific installation paths with `git clone`, virtual environment, and `pip install -e '.[test]'` commands.
 - [ ] Document optional `SCHOLAR_BIB_PROXY`/`--proxy`, default direct access, resume behavior, CAPTCHA handling, rate-limit stopping, and responsible use.
 

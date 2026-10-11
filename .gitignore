@@ -1,0 +1,28 @@
+# Runtime data and browser profiles
+work/
+outputs/
+progress.jsonl
+unmatched.tsv
+references.bib
+*.bib
+*.tsv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp

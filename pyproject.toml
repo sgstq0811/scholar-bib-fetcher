@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scholar-bib-fetcher"
+version = "0.1.0"
+description = "Strict-title Google Scholar BibTeX fetcher"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = ["playwright>=1.48,<2"]
+
+[project.urls]
+Homepage = "https://github.com/sunsean21/scholar-bib-fetcher"
+Repository = "https://github.com/sunsean21/scholar-bib-fetcher"
+Issues = "https://github.com/sunsean21/scholar-bib-fetcher/issues"
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "pytest-asyncio>=0.24,<2"]
+
+[project.scripts]
+scholar-bib = "scholar_bib.cli:main"
+
+[tool.setuptools]
+packages = ["scholar_bib"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["browser: requires installed Google Chrome"]
+asyncio_mode = "auto"
