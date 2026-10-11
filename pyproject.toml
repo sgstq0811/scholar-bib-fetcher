@@ -13,9 +13,9 @@ requires-python = ">=3.11"
 dependencies = ["playwright>=1.48,<2"]
 
 [project.urls]
-Homepage = "https://github.com/sunsean21/scholar-bib-fetcher"
-Repository = "https://github.com/sunsean21/scholar-bib-fetcher"
-Issues = "https://github.com/sunsean21/scholar-bib-fetcher/issues"
+Homepage = "https://github.com/sgstq0811/scholar-bib-fetcher"
+Repository = "https://github.com/sgstq0811/scholar-bib-fetcher"
+Issues = "https://github.com/sgstq0811/scholar-bib-fetcher/issues"
 
 [project.optional-dependencies]
 test = ["pytest>=8,<10", "pytest-asyncio>=0.24,<2"]

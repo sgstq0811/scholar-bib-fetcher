@@ -9,7 +9,7 @@
 本机需要安装 Python 3.11+ 和 Google Chrome。工具只使用项目自己的 profile，不读取或关闭日常 Chrome。
 
 ```bash
-git clone https://github.com/sunsean21/scholar-bib-fetcher.git
+git clone https://github.com/sgstq0811/scholar-bib-fetcher.git
 cd scholar-bib-fetcher
 python -m venv .venv
 source .venv/bin/activate

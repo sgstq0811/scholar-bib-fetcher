@@ -30,7 +30,7 @@
 - Modify: `README.md`
 
 - [ ] Add ignore rules for `work/`, `outputs/`, browser data, checkpoints, BibTeX/TSV results, caches, virtual environments, build output, and editable-install metadata.
-- [ ] Add the MIT License with copyright `2026 sunsean21`.
+- [ ] Add the MIT License with copyright `2026 sgstq0811`.
 - [ ] Replace machine-specific installation paths with `git clone`, virtual environment, and `pip install -e '.[test]'` commands.
 - [ ] Document optional `SCHOLAR_BIB_PROXY`/`--proxy`, default direct access, resume behavior, CAPTCHA handling, rate-limit stopping, and responsible use.
 
@@ -48,8 +48,8 @@
 
 **Files:**
 - Commit: verified tracked files
-- Remote: `https://github.com/sunsean21/scholar-bib-fetcher.git`
+- Remote: `https://github.com/sgstq0811/scholar-bib-fetcher.git`
 
 - [ ] Commit the implementation as `chore: prepare public release`.
 - [ ] Add the `origin` remote and push `main` with upstream tracking.
-- [ ] Verify with `git status --short --branch`, `git ls-remote origin refs/heads/main`, and `gh repo view sunsean21/scholar-bib-fetcher --json visibility,url,defaultBranchRef`.
+- [ ] Verify with `git status --short --branch`, `git ls-remote origin refs/heads/main`, and `gh repo view sgstq0811/scholar-bib-fetcher --json visibility,url,defaultBranchRef`.

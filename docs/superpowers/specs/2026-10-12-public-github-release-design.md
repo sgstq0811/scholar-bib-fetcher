@@ -3,7 +3,7 @@
 ## Goal
 
 Publish the existing `scholar-bib-fetcher` project to the public repository
-`https://github.com/sunsean21/scholar-bib-fetcher` without exposing local browser
+`https://github.com/sgstq0811/scholar-bib-fetcher` without exposing local browser
 data, fetched bibliographies, checkpoints, machine-specific paths, or credentials.
 
 ## Repository contents
